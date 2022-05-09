@@ -1,0 +1,68 @@
+Package: luci-app-accesscontrol
+Version: 1-11
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2747
+Filename: luci-app-accesscontrol_1-11_all.ipk
+Size: 3546
+SHA256sum: 0da01247b0c15075841eca119e247a43cbcd52fa2132ba024d3c1818ddf6521d
+Description:  LuCI Access Control Configuration
+
+Package: luci-app-arpbind
+Version: 1-3
+Depends: libc, ip
+Section: luci
+Architecture: all
+Installed-Size: 1992
+Filename: luci-app-arpbind_1-3_all.ipk
+Size: 2764
+SHA256sum: 1d3879a72707f9df25234625d7e63e02b8a09a477d996c134e2b396e525c416f
+Description:  ARP Binding
+
+Package: luci-app-autoreboot
+Version: 1.0-8
+Depends: libc, luci
+Section: luci
+Architecture: all
+Installed-Size: 1289
+Filename: luci-app-autoreboot_1.0-8_all.ipk
+Size: 2005
+SHA256sum: 8a6d23ce60145079193f12e88ed119e7174c3def550292ec5f93d6b8ec63b636
+Description:  LuCI support for Scheduled Reboot
+
+Package: luci-app-baidupcs-web
+Version: 1.0-5
+Depends: libc, baidupcs-web, wget, openssl-util
+Section: luci
+Architecture: all
+Installed-Size: 2554
+Filename: luci-app-baidupcs-web_1.0-5_all.ipk
+Size: 3410
+SHA256sum: c7736cb3ec0685cc06a69a0e2feba49cce6b53a848a045cfc44f291e26be5d1a
+Description:  LuCI support for BaiduPCS-Go
+
+Package: luci-app-turboacc
+Version: git-22.121.65028-2a5da72-1
+Depends: libc, pdnsd-alt, kmod-tcp-bbr
+License: GPL-3.0-only
+Section: luci
+Architecture: all
+Installed-Size: 6466
+Filename: luci-app-turboacc_git-22.121.65028-2a5da72-1_all.ipk
+Size: 7376
+SHA256sum: 00b84b0965ad3dfde8ec1df7b59d17c23d30cb47c686f064d216701a920158d4
+Description:  LuCI support for Flow Offload / Shortcut-FE
+
+Package: luci-app-unblockmusic
+Version: 2.3.5-21
+Depends: libc, dnsmasq-full, ipset, uclient-fetch, UnblockNeteaseMusic-Go
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 7247
+Filename: luci-app-unblockmusic_2.3.5-21_all.ipk
+Size: 8161
+SHA256sum: 302f91aaa0eaf0f9779e38336ced1e200b4a2a34999685120a55a8ec8a32a22d
+Description:  LuCI support for Unblock NeteaseCloudMusic
+

@@ -1,0 +1,48 @@
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/small/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1651847848
+Maintainer: ghostmaker
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10767
+Filename: dns2socks_2.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11539
+SHA256sum: e75b456e32447cdfd3f2b339687c01bcfe6bd72ede64506042dfa4af9e31ab6a
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: ipt2socks
+Version: 1.1.3-2
+Depends: libc, libpthread, libuv1
+Source: feeds/small/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1651847848
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 28616
+Filename: ipt2socks_1.1.3-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 29401
+SHA256sum: 192e3b3b1227e36685d1daf6c19f76a7923812e2d47aa28c2dd7ec5de1a6acac
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1651847848
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2262
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3041
+SHA256sum: 7cd50dc41d486e9016ac6b68088019cf0634b9af1fcc540c64050d687496e2c8
+Description:  shadowsocksr-libev ssr-check
+
