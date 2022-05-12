@@ -36,10 +36,10 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  BUILD_USER: Mapdio
-  GITHUB_USER_NAME: mapdio
+  BUILD_USER: bluesea7576
+  GITHUB_USER_NAME: bluesea7576
   GITHUB_USER_EMAIL: ${{ secrets.EMAIL }}
-  GITHUB: github.com/mapdio/R7800-Openwrt-with-NSS.git
+  GITHUB: https://github.com/bluesea7576/R7800-Openwrt-with-NSS.git
   
 jobs:
   build:
