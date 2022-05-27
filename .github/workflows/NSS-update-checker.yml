@@ -16,9 +16,9 @@ env:
   REPO_BRANCH: openwrt-21.02-nss-qsdk10.0
 
 on:
-#  workflow_dispatch:
-#  schedule:
-#    - cron: 0 */18 * * *
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */18 * * *
 
 jobs:
   check:
